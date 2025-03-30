@@ -13,7 +13,7 @@ This document maps the code files in this repository to the corresponding sectio
 - **Related Figures:**  
   - Figures 6 (matching ratio and thresholds)
 
-## 2. Model Training and Fine-Tuning (Paper Section 4.2)
+## 2. Model Training and Fine-Tuning (Paper Section 4.2 and Section 5)
 
 - **File:** `scripts/modeling/FineTune_MatchedPairs.py`
 - **What it does:**  
