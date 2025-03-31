@@ -13,7 +13,7 @@ This document maps the code files in this repository to the corresponding sectio
 - **Related Figures:**  
   - Figures 6 (matching ratio and thresholds)
 
-## 2. Model Training and Fine-Tuning (Paper Section 4.2 and Section 5)
+## 2. Model Training and Fine-Tuning (Paper Section 4.2 and Section 5.1 - 5.2)
 
 - **File:** `scripts/modeling/FineTune_MatchedPairs.py`
 - **What it does:**  
@@ -24,7 +24,7 @@ This document maps the code files in this repository to the corresponding sectio
   - Figure 8 (model performance across groups)  
   - Figure 12 (temporal evaluation of model performance)
 
-## 3. Feature Importance Analysis (Paper Section 5)
+## 3. Feature Importance Analysis (Paper Section 5.1 - 5.2)
 
 - **File:** `scripts/modeling/Feature_Importance.py`
 - **What it does:**  
@@ -34,7 +34,7 @@ This document maps the code files in this repository to the corresponding sectio
   - Figures 9, 10, 11 (importance of network source types)  
   - Figures 13, 14, 15 (importance of network centrality measures)
  
-## 4. Gender-based Analysis Model Training and Fine-Tuning (Paper Section 4.2 and Section 5)
+## 4. Gender-based Analysis Model Training and Fine-Tuning (Paper Section 5.3)
 
 - **Files:**  
   - `scripts/gender_based/Gender_base_update_scores.py`  
