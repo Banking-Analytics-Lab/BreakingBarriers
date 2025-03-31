@@ -33,3 +33,22 @@ This document maps the code files in this repository to the corresponding sectio
 - **Related Figures:**  
   - Figures 9, 10, 11 (importance of network source types)  
   - Figures 13, 14, 15 (importance of network centrality measures)
+ 
+## 4. Gender-based Analysis Model Training and Fine-Tuning (Paper Section 4.2 and Section 5)
+
+- **Files:**  
+  - `scripts/gender_based/Gender_base_update_scores.py`  
+  - `scripts/gender_based/Gender_base_Match_and_Fine_tune.py`
+
+- **What it does:**  
+  - `Gender_base_update_scores.py`:  
+    - Computes network centrality scores, including **gender-specific Personalized PageRank** that only propagates influence within the same gender group.  
+    - Outputs one set of scores for male-to-male propagation and another for female-to-female propagation.  
+  - `Gender_base_Match_and_Fine_tune.py`:  
+    - Trains LSTM models using matched candidate pairs and the updated gender-specific scores.  
+    - Supports evaluation on all, male-only, or female-only candidate groups.  
+    - Includes time-based cross-validation and hyperparameter tuning.
+
+- **Related Figures:**  
+  - **Figure 16** – Effect of male-to-male support in networks on board appointments  
+  - **Figure 17** – Effect of female-to-female support in networks on board appointments
