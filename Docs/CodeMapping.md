@@ -10,6 +10,7 @@ This document maps the code files in this repository to the corresponding sectio
   - Constructs career sequences.  
   - Computes dissimilarity matrices using TraMineR (R package via rpy2).  
   - Matches female directors to male directors based on a threshold.
+  - **Note**: Given the data size, a large ram (64G+) is required to performa the matching task.
 - **Related Figures:**  
   - Figures 6 (matching ratio and thresholds)
 
