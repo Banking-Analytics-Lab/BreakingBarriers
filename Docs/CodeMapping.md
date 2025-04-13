@@ -53,3 +53,12 @@ This document maps the code files in this repository to the corresponding sectio
 - **Related Figures:**  
   - **Figure 16** – Effect of male-to-male support in networks on board appointments  
   - **Figure 17** – Effect of female-to-female support in networks on board appointments
+
+## 5. Sample of One Prediction (Demo)
+
+- **File:** `Weight/Sample_of_one.ipynb`
+- **What it does:**  
+  - Demonstrates the model's ability to predict the probability of a board appointment for an individual director based on their historical network features.  
+  - Loads a pre-trained LSTM model and applies it to a **single individual's career sequence**.  
+  - The individual's career sequence is a synthetic network feature vectors over multiple years, matching the format used in training.  
+  - Outputs a probability between 0 and 1 indicating the predicted likelihood of board appointment next year.
