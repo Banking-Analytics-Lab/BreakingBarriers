@@ -53,9 +53,9 @@ os.environ['R_HOME'] = '/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx
 # 2. Configuration Variables
 # ---------------------------
 # Users should update these variables to point to their own data and database paths.
-DATA_DIR = os.getenv('DATA_DIR', '/path/to/your/data')  # e.g., '/home/username/data'
-HOME_DIR = os.getenv('HOME_DIR', '/path/to/your/home')  # e.g., '/home/username'
-DB_PATH = os.path.join(HOME_DIR, 'path/to/database.db')  # e.g., '/home/username/mydatabase.db'
+DATA_DIR = os.getenv('DATA_DIR', 'data')  # folder with the input CSV files
+HOME_DIR = os.getenv('HOME_DIR', '.')  # base folder for the default DB_PATH
+DB_PATH = os.getenv('DB_PATH', os.path.join(HOME_DIR, 'data', 'base.db'))  # SQLite database built by Scripts/database/
 
 # ---------------------------
 # 3. Define Utility Functions
