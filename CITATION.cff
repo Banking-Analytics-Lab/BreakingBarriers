@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "BreakingBarriers"
+license: AGPL-3.0-only
+repository-code: "https://github.com/Banking-Analytics-Lab/BreakingBarriers"
+authors:
+  - family-names: "Zhou"
+    given-names: "Yuhao"
+  - family-names: "Chen"
+    given-names: "Wenhao"
+  - family-names: "Óskarsdóttir"
+    given-names: "María"
+  - family-names: "Davison"
+    given-names: "Matt"
+  - family-names: "Bravo"
+    given-names: "Cristián"
+    orcid: "https://orcid.org/0000-0003-1579-1565"
+preferred-citation:
+  type: article
+  title: "Unveiling gender disparities in corporate board career paths using deep learning"
+  year: 2026
+  journal: "Patterns"
+  volume: 7
+  issue: "4"
+  start: "101495"
+  doi: "10.1016/j.patter.2026.101495"
+  authors:
+    - family-names: "Zhou"
+      given-names: "Yuhao"
+    - family-names: "Chen"
+      given-names: "Wenhao"
+    - family-names: "Óskarsdóttir"
+      given-names: "María"
+    - family-names: "Davison"
+      given-names: "Matt"
+    - family-names: "Bravo"
+      given-names: "Cristián"
+      orcid: "https://orcid.org/0000-0003-1579-1565"

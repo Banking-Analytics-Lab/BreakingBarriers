@@ -1,0 +1,15 @@
+# The package versions used for the paper were not recorded; this list names the packages only.
+# Built from the imports in Scripts/ and Weight/Sample_of_one.ipynb (standard library left out).
+# Scripts/matching/MatchingPairs.py and Scripts/gender_based/Gender_base_Match_and_Fine_tune.py also
+# need R with the TraMineR package, called through rpy2; install R and TraMineR outside pip.
+fuzzywuzzy
+networkx
+numpy
+pandas
+# pyarrow is not imported directly: pandas.read_parquet in Scripts/database/parquet2db.py needs a Parquet engine.
+pyarrow
+rpy2
+scikit-learn
+scipy
+torch
+tqdm
